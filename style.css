@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+} 
+body {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    background: url(img/F_930524269_HnTqLoTTysvYL2ej4nqtdwNfDNYo16cb.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+}
+.dark-mode {
+    background: url(img/vecteezy_hand-painted-delicate-pink-watercolour-background_11315089.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(255, 0, 60);
+}
+#toggle-mode{
+    background-color: rgb(255, 0, 60);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 25px;
+    color: white;
+    cursor: pointer;
+    justify-content: space-between;
+}
+#toggle-mode:hover{
+    background-color: transparent;
+    color: rgb(255, 0, 60);
+}
+header{
+    background-color: rgb(250, 191, 205);
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+#matab{
+    text-decoration: none;
+    color: rgb(255, 0, 60);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+#matab:hover{
+    color: black;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 0, 60);
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 25px;
+}
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+section{
+    padding: 100px 200px;
+} 
+#main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#main h2{
+    color: rgb(0, 0, 0);
+    font-size: 1.4em;
+    font-weight: 500;
+}
+#main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(255, 0, 60);
+    font-size: 3em;
+    font-weight: 600;
+
+}
+#main h3{
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#projects{
+    background-color: rgb(255, 0, 60);
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 1em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+#projects:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    color: rgb(255, 0, 60);
+
+}
+#social-media a i{
+    color: rgb(0, 0, 0);
+    font-size: 1.7em;
+    padding-right: 30px;
+    transition: 1s ease;
+}
+#social-media a i:hover{
+    transform: scale(1.1);
+}
+#services,#mywork,#contact{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#title-of-service{
+    display: flex;
+    justify-content: center;
+    color: rgb(225, 0, 60);
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cards{
+    background-color: rgb(255, 214, 223);
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(255, 0, 60, 0.15);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 50px;
+    transition: 0.7s ease;
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: rgb(225, 0, 60);
+    font-size: 7em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: rgb(225, 0, 60);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}  
+#title-of-contact{
+    display: flex;
+    justify-content: center;
+    color: rgb(225, 0, 60);
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+#work{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#my_work{
+    display: flex;
+    justify-content: center;
+    color: rgb(225, 0, 60);
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+img{
+    border-radius: 10px;
+}
+.card{
+    padding: 25px;
+    margin: 50px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}

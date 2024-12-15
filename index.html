@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Matab Ibrahim</title>
+    <meta name="description" content="This is My Profile">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#main" id="matab" onclick="popup()">Matab Ibrahim</a>
+        <nav id="navigation">
+            <a href="#services" onclick="popup1()">Services</a>
+            <a href="#contact" onclick="popup2()">Contact Me</a>
+            <button id="toggle-mode" onclick="popup3()">Change</button>
+        </nav>
+    </header>
+
+    <section id="main" class="main">
+        <div>
+            <h2>Hello, I'm Matab<br><span>Web Developer</span></h2>
+            <h3>Your vision, our code</h3>
+            <a href="#mywork" id="projects" onclick="popup4()">View my work</a>
+            <div id="social-media">
+                <a href="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Matab-44/Matab-44"><i class="fab fa-github-square"></i></a>
+                <a href="https://www.facebook.com/matab.ibrahim.77/"><i class="fab fa-facebook-square"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services">
+        <h2 id="title-of-service">Services</h2>
+        <div id="content">
+            <div class="cards">
+                <div class="icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="info">
+                    <h3>Web Developing</h3>
+                    <p>I am a web developer who provides innovative solutions to design and develop websites that ensure
+                        an outstanding user experience.</p>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="icon">
+                    <i class="fas fa-edit"></i>
+                </div>
+                <div class="info">
+                    <h3>Graphic Design</h3>
+                    <p>I am a graphic designer who creates distinctive designs that express identity and highlight
+                        details.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 id="title-of-contact">Contact Me</h2>
+        <div id="content">
+            <div class="cards">
+                <div class="icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+201017764897</p>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>matabibrahim270@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mywork">
+        <h2 id="my_work">My Work</h2>
+        <div id="work">
+            <div class="card">
+                <img src="img/How to be an.png" height="300px" width="300px">
+            </div>
+
+            <div class="card">
+                <img src="img/Communication Skills 4.png" height="300px" width="300px">
+            </div>
+
+            <div class="card">
+                <img src="img/flutter.png" height="300px" width="300px">
+            </div>
+
+            <div class="card">
+                <img src="img/ماركتها.png" height="300px" width="300px">
+            </div>
+        </div>
+    </section>
+
+    <!-- <script>
+        const body = document.body;
+        const toggleButton = document.getElementById('toggle-mode');
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script> -->
+    <script src="main.js"></script>
+</body>
+
+</html>
